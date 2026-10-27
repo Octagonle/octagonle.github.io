@@ -49,13 +49,17 @@ Country is the fighter's birthplace country. If a fighter's ufc.com page isn't f
 
 ## Deploy
 
+Live at **https://octagonle.github.io/** (repo: [Octagonle/octagonle.github.io](https://github.com/Octagonle/octagonle.github.io)). Because the repo is named `<organization>.github.io`, GitHub Pages serves it at the root of that address.
+
 The game is entirely static. `.github/workflows/update-and-deploy.yml` publishes it to **GitHub Pages** and keeps it current:
 
 - Every Monday at 08:00 UTC it refreshes the fighters and daily schedule, commits the changes, and redeploys.
 - Every push to `main` redeploys.
 - Actions tab → "Update fighters and deploy" → **Run workflow** runs an update immediately.
 
-One-time setup: push the project to a GitHub repo, then in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. (GitHub Pages is free for public repos.) If an update fails, GitHub emails you and the site keeps the last good data.
+If an update fails, GitHub emails you and the site keeps the last good data.
+
+`public/robots.txt`, `public/sitemap.xml`, the canonical link and the `og:` tags in `index.html` all use the full site address. Update them if the site ever moves to a different domain. `public/og-image.png` is the link-preview image.
 
 The `public/` folder also works on any other static host (Netlify, Cloudflare Pages, Vercel), but then you'd run the weekly update yourself.
 
