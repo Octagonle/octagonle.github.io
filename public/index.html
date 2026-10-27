@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Only this site's own scripts run; the only outside resources are Google Fonts and flag images. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://flagcdn.com; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Octagonle</title>
   <meta name="description" content="Guess the UFC fighter in 8 tries. A new fighter every day, plus unlimited mode.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
