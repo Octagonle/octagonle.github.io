@@ -1,0 +1,63 @@
+# Every Monday: refresh the fighter pools and daily schedule, commit the changes, and publish the
+# game to GitHub Pages. Also publishes on every push to main, and can be run by hand from the
+# Actions tab ("Run workflow").
+name: Update fighters and deploy
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Mondays 08:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # Pushes only redeploy; the data refresh runs on the schedule or by hand.
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Fails without writing anything if the sources look broken, so the live site keeps its data.
+      - run: npm run build:fighters
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A public/data public/img/fighters
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Weekly fighter data update"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }} # the latest commit, including this run's data update
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
