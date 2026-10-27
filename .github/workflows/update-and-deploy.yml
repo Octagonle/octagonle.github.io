@@ -61,7 +61,7 @@ jobs:
         with:
           ref: ${{ github.ref_name }} # the latest commit, including this run's data update
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
       - id: deployment
