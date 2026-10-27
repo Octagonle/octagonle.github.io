@@ -1,0 +1,4 @@
+# Keep LF line endings everywhere so Windows edits and the weekly Linux update job produce clean diffs.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
