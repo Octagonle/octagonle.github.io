@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Octagonle</title>
+  <meta name="description" content="Guess the UFC fighter in 8 tries. A new fighter every day, plus unlimited mode.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn" id="btn-help" aria-label="How to play" title="How to play">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+    </button>
+    <h1 class="logo">OCTAGON<span>LE</span></h1>
+    <div class="topbar-right">
+      <button class="icon-btn" id="btn-stats" aria-label="Statistics" title="Statistics">
+        <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+      </button>
+      <button class="icon-btn account-btn" id="btn-account" aria-label="Account" title="Sign in">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+        <span class="avatar" hidden></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <div class="difficulty" role="radiogroup" aria-label="Difficulty">
+        <button role="radio" data-difficulty="easy" class="diff-btn easy">
+          <span class="diff-name">Easy</span><span class="diff-desc">UFC champions</span>
+        </button>
+        <button role="radio" data-difficulty="hard" class="diff-btn hard">
+          <span class="diff-name">Hard</span><span class="diff-desc">All active fighters</span>
+        </button>
+      </div>
+      <nav class="mode-tabs" role="tablist">
+        <button role="tab" data-mode="daily" class="mode-tab">Daily</button>
+        <button role="tab" data-mode="unlimited" class="mode-tab">Unlimited</button>
+      </nav>
+    </div>
+
+    <section class="mystery">
+      <div class="mystery-frame">
+        <div class="mystery-q" id="mystery-q">?</div>
+        <img id="mystery-img" alt="" hidden>
+      </div>
+      <div class="mystery-side">
+        <p class="mystery-label" id="mystery-label">Who's the fighter?</p>
+        <p class="mystery-sub" id="mystery-sub"></p>
+        <label class="switch">
+          <input type="checkbox" id="silhouette-toggle">
+          <span class="switch-track"></span>
+          <span>Silhouette hint</span>
+        </label>
+      </div>
+    </section>
+
+    <div class="guess-box" id="guess-box">
+      <div class="search">
+        <svg viewBox="0 0 24 24" class="search-icon"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="guess-input" type="text" autocomplete="off" spellcheck="false" placeholder="Guess 1 of 8" aria-label="Guess a fighter" aria-autocomplete="list" aria-controls="suggestions">
+        <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+      </div>
+    </div>
+
+    <div class="result-bar" id="result-bar" hidden>
+      <span id="result-text"></span>
+      <div class="result-actions">
+        <button class="btn btn-ghost" id="btn-show-result">Result</button>
+        <button class="btn btn-primary" id="btn-next" hidden>Next fighter</button>
+      </div>
+    </div>
+
+    <section class="board" aria-label="Guesses">
+      <div class="board-head">
+        <span class="col-fighter">Fighter</span>
+        <span>Gender</span>
+        <span>Weight</span>
+        <span>Country</span>
+        <span>Age</span>
+        <span>Height</span>
+      </div>
+      <div id="rows"></div>
+      <p class="board-empty" id="board-empty">Start typing a fighter's name. Each guess shows how close you are.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Fan-made game. Not affiliated with the UFC. Fighter data and photos from ufc.com and Wikipedia.
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

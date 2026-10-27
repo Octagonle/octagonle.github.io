@@ -1,0 +1,14 @@
+{
+  "name": "octagonle",
+  "version": "1.0.0",
+  "description": "Guess the UFC fighter - daily and unlimited modes",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "build:fighters": "node scripts/build-fighters.mjs"
+  }
+}
