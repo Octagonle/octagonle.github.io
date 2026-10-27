@@ -10,10 +10,8 @@ on:
   push:
     branches: [main]
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+# No permissions by default; each job asks only for what it needs.
+permissions: {}
 
 concurrency:
   group: update-and-deploy
@@ -25,6 +23,8 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write # commit the refreshed data
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -48,6 +48,11 @@ jobs:
     needs: update
     if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write    # publish to GitHub Pages
+      id-token: write # required by deploy-pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
