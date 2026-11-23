@@ -59,7 +59,7 @@
   "id": "aljamain-sterling",
   "name": "Aljamain Sterling",
   "nickname": "Funk Master",
-  "record": "26-5-0",
+  "record": "26-6-0",
   "gender": "M",
   "division": "Featherweight",
   "weight": 145,
@@ -120,7 +120,7 @@
   "division": "Light Heavyweight",
   "weight": 205,
   "country": "New Zealand",
-  "age": 35,
+  "age": 36,
   "dob": "1990-11-17",
   "height": 76,
   "img": "img/fighters/carlos-ulberg.png"
@@ -311,7 +311,7 @@
   "id": "jiri-prochazka",
   "name": "Jiří Procházka",
   "nickname": "BJP",
-  "record": "32-6-1",
+  "record": "32-7-1",
   "gender": "M",
   "division": "Light Heavyweight",
   "weight": 205,
@@ -530,20 +530,6 @@
   "dob": "1984-10-26",
   "height": 68,
   "img": "img/fighters/rafael-dos-anjos.png"
- },
- {
-  "id": "raquel-pennington",
-  "name": "Raquel Pennington",
-  "nickname": "Rocky",
-  "record": "16-10-0",
-  "gender": "F",
-  "division": "Women's Bantamweight",
-  "weight": 135,
-  "country": "USA",
-  "age": 38,
-  "dob": "1988-09-05",
-  "height": 67,
-  "img": "img/fighters/raquel-pennington.png"
  },
  {
   "id": "robert-whittaker",

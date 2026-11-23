@@ -120,7 +120,7 @@
   "division": "Bantamweight",
   "weight": 135,
   "country": "Canada",
-  "age": 38,
+  "age": 39,
   "dob": "1987-11-19",
   "height": 68,
   "img": "img/fighters/aiemann-zahabi.png"
@@ -199,7 +199,7 @@
   "id": "aleksandre-topuria",
   "name": "Aleksandre Topuria",
   "nickname": "El Conquistador",
-  "record": "7-1-0",
+  "record": "7-2-0",
   "gender": "M",
   "division": "Bantamweight",
   "weight": 135,
@@ -213,7 +213,7 @@
   "id": "alessandro-costa",
   "name": "Alessandro Costa",
   "nickname": "Nono",
-  "record": "17-5-0",
+  "record": "17-6-0",
   "gender": "M",
   "division": "Flyweight",
   "weight": 125,
@@ -344,7 +344,7 @@
   "division": "Women's Strawweight",
   "weight": 115,
   "country": "Brazil",
-  "age": 28,
+  "age": 29,
   "dob": "1997-11-20",
   "height": 64,
   "img": "img/fighters/alexia-thainara.png"
@@ -392,10 +392,24 @@
   "img": "img/fighters/alice-pereira.png"
  },
  {
+  "id": "alik-lorenz",
+  "name": "Alik Lorenz",
+  "nickname": null,
+  "record": "8-2-0",
+  "gender": "M",
+  "division": "Light Heavyweight",
+  "weight": 205,
+  "country": "USA",
+  "age": 29,
+  "dob": "1997-01-25",
+  "height": 74,
+  "img": "img/fighters/alik-lorenz.png"
+ },
+ {
   "id": "aljamain-sterling",
   "name": "Aljamain Sterling",
   "nickname": "Funk Master",
-  "record": "26-5-0",
+  "record": "26-6-0",
   "gender": "M",
   "division": "Featherweight",
   "weight": 145,
@@ -493,7 +507,7 @@
   "id": "amir-albazi",
   "name": "Amir Albazi",
   "nickname": "The Prince",
-  "record": "17-3-0",
+  "record": "18-3-0",
   "gender": "M",
   "division": "Flyweight",
   "weight": 125,
@@ -722,7 +736,7 @@
   "division": "Bantamweight",
   "weight": 135,
   "country": "Georgia",
-  "age": 24,
+  "age": 25,
   "dob": "2001-11-17",
   "height": 67,
   "img": "img/fighters/asaf-chopurov.png"
@@ -731,7 +745,7 @@
   "id": "asu-almabayev",
   "name": "Asu Almabayev",
   "nickname": "Zulfikar",
-  "record": "24-3-0",
+  "record": "24-4-0",
   "gender": "M",
   "division": "Flyweight",
   "weight": 125,
@@ -927,7 +941,7 @@
   "id": "bia-mesquita",
   "name": "Bia Mesquita",
   "nickname": "The Lady GOAT",
-  "record": "8-0-0",
+  "record": "9-0-0",
   "gender": "F",
   "division": "Women's Bantamweight",
   "weight": 135,
@@ -1162,20 +1176,6 @@
   "img": "img/fighters/brendson-ribeiro.png"
  },
  {
-  "id": "brian-ortega",
-  "name": "Brian Ortega",
-  "nickname": "T-City",
-  "record": "16-5-0",
-  "gender": "M",
-  "division": "Featherweight",
-  "weight": 145,
-  "country": "USA",
-  "age": 35,
-  "dob": "1991-02-21",
-  "height": 68,
-  "img": "img/fighters/brian-ortega.png"
- },
- {
   "id": "bruce-whitehead",
   "name": "Bruce Whitehead",
   "nickname": "The Goose",
@@ -1352,7 +1352,7 @@
   "division": "Light Heavyweight",
   "weight": 205,
   "country": "New Zealand",
-  "age": 35,
+  "age": 36,
   "dob": "1990-11-17",
   "height": 76,
   "img": "img/fighters/carlos-ulberg.png"
@@ -1939,7 +1939,7 @@
   "division": "Lightweight",
   "weight": 155,
   "country": "Poland",
-  "age": 24,
+  "age": 25,
   "dob": "2001-11-23",
   "height": 70,
   "img": "img/fighters/damian-rzepecki.png"
@@ -1976,7 +1976,7 @@
   "id": "dan-hooker",
   "name": "Dan Hooker",
   "nickname": "The Hangman",
-  "record": "24-15-0",
+  "record": "25-15-0",
   "gender": "M",
   "division": "Lightweight",
   "weight": 155,
@@ -2256,7 +2256,7 @@
   "id": "diyar-nurgozhay",
   "name": "Diyar Nurgozhay",
   "nickname": null,
-  "record": "12-2-0",
+  "record": "13-2-0",
   "gender": "M",
   "division": "Light Heavyweight",
   "weight": 205,
@@ -2349,20 +2349,6 @@
   "dob": "1991-04-06",
   "height": 70,
   "img": "img/fighters/dooho-choi.png"
- },
- {
-  "id": "douglas-silva-de-andrade",
-  "name": "Douglas Silva de Andrade",
-  "nickname": "D Silva",
-  "record": "29-7-0",
-  "gender": "M",
-  "division": "Featherweight",
-  "weight": 145,
-  "country": "Brazil",
-  "age": 41,
-  "dob": "1985-06-22",
-  "height": 67,
-  "img": "img/fighters/douglas-silva-de-andrade.png"
  },
  {
   "id": "drakkar-klose",
@@ -2471,7 +2457,7 @@
   "division": "Middleweight",
   "weight": 185,
   "country": "USA",
-  "age": 28,
+  "age": 29,
   "dob": "1997-11-20",
   "height": 75,
   "img": "img/fighters/edmen-shahbazyan.png"
@@ -2883,20 +2869,6 @@
   "img": "img/fighters/gabriella-fernandes.png"
  },
  {
-  "id": "garrett-armfield",
-  "name": "Garrett Armfield",
-  "nickname": null,
-  "record": "10-5-0",
-  "gender": "M",
-  "division": "Bantamweight",
-  "weight": 135,
-  "country": "USA",
-  "age": 30,
-  "dob": "1996-10-09",
-  "height": 66,
-  "img": "img/fighters/garrett-armfield.png"
- },
- {
   "id": "gaston-bolanos",
   "name": "Gaston Bolanos",
   "nickname": "DreamKiller",
@@ -2951,20 +2923,6 @@
   "dob": "1994-07-17",
   "height": 67,
   "img": "img/fighters/gianni-vazquez.png"
- },
- {
-  "id": "giga-chikadze",
-  "name": "Giga Chikadze",
-  "nickname": "Ninja",
-  "record": "15-7-0",
-  "gender": "M",
-  "division": "Featherweight",
-  "weight": 145,
-  "country": "Georgia",
-  "age": 38,
-  "dob": "1988-08-25",
-  "height": 72,
-  "img": "img/fighters/giga-chikadze.png"
  },
  {
   "id": "gigi-canuto",
@@ -3157,7 +3115,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "Ireland",
-  "age": 28,
+  "age": 29,
   "dob": "1997-11-17",
   "height": 75,
   "img": "img/fighters/ian-machado-garry.png"
@@ -3208,7 +3166,7 @@
   "id": "ikram-aliskerov",
   "name": "Ikram Aliskerov",
   "nickname": null,
-  "record": "18-2-0",
+  "record": "19-2-0",
   "gender": "M",
   "division": "Middleweight",
   "weight": 185,
@@ -3353,7 +3311,7 @@
   "division": "Light Heavyweight",
   "weight": 205,
   "country": "Poland",
-  "age": 27,
+  "age": 28,
   "dob": "1998-11-20",
   "height": 73,
   "img": "img/fighters/iwo-baraniewski.png"
@@ -3488,7 +3446,7 @@
   "id": "jake-matthews",
   "name": "Jake Matthews",
   "nickname": "The Celtic Kid",
-  "record": "23-8-0",
+  "record": "23-9-0",
   "gender": "M",
   "division": "Welterweight",
   "weight": 170,
@@ -3614,7 +3572,7 @@
   "id": "jared-cannonier",
   "name": "Jared Cannonier",
   "nickname": "Tha Killa Gorilla",
-  "record": "18-10-0",
+  "record": "18-11-0",
   "gender": "M",
   "division": "Middleweight",
   "weight": 185,
@@ -3731,7 +3689,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "Brazil",
-  "age": 27,
+  "age": 28,
   "dob": "1998-11-19",
   "height": 68,
   "img": "img/fighters/jefferson-nascimento.png"
@@ -3749,20 +3707,6 @@
   "dob": "1997-02-02",
   "height": 66,
   "img": "img/fighters/jeisla-chaves.png"
- },
- {
-  "id": "jeongyeong-lee",
-  "name": "JeongYeong Lee",
-  "nickname": "Korean Tiger",
-  "record": "11-4-0",
-  "gender": "M",
-  "division": "Featherweight",
-  "weight": 145,
-  "country": "South Korea",
-  "age": 31,
-  "dob": "1995-11-13",
-  "height": 70,
-  "img": "img/fighters/jeongyeong-lee.png"
  },
  {
   "id": "jeremiah-wells",
@@ -3866,7 +3810,7 @@
   "id": "jiri-prochazka",
   "name": "Jiří Procházka",
   "nickname": "BJP",
-  "record": "32-6-1",
+  "record": "32-7-1",
   "gender": "M",
   "division": "Light Heavyweight",
   "weight": 205,
@@ -4017,6 +3961,20 @@
   "img": "img/fighters/john-garza.png"
  },
  {
+  "id": "john-mitchell",
+  "name": "John Mitchell",
+  "nickname": "The Cork Horse",
+  "record": "12-3-0",
+  "gender": "M",
+  "division": "Lightweight",
+  "weight": 155,
+  "country": "Ireland",
+  "age": 31,
+  "dob": "1995-07-21",
+  "height": 73,
+  "img": "img/fighters/john-mitchell.png"
+ },
+ {
   "id": "john-yannis",
   "name": "John Yannis",
   "nickname": "Angel",
@@ -4043,20 +4001,6 @@
   "dob": "1992-03-30",
   "height": 78,
   "img": "img/fighters/johnny-walker.png"
- },
- {
-  "id": "jonathan-martinez",
-  "name": "Jonathan Martinez",
-  "nickname": "Dragon",
-  "record": "19-6-0",
-  "gender": "M",
-  "division": "Bantamweight",
-  "weight": 135,
-  "country": "USA",
-  "age": 32,
-  "dob": "1994-04-20",
-  "height": 68,
-  "img": "img/fighters/jonathan-martinez.png"
  },
  {
   "id": "jonathan-micallef",
@@ -4664,7 +4608,7 @@
   "id": "kevin-vallejos",
   "name": "Kevin Vallejos",
   "nickname": "El Chino",
-  "record": "17-1-0",
+  "record": "18-1-0",
   "gender": "M",
   "division": "Featherweight",
   "weight": 145,
@@ -4832,7 +4776,7 @@
   "id": "kyoji-horiguchi",
   "name": "Kyoji Horiguchi",
   "nickname": "Karate Kid",
-  "record": "36-6-0",
+  "record": "37-6-0",
   "gender": "M",
   "division": "Flyweight",
   "weight": 125,
@@ -4893,7 +4837,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "USA",
-  "age": 30,
+  "age": 31,
   "dob": "1995-11-18",
   "height": 76,
   "img": "img/fighters/leon-shahbazyan.png"
@@ -4937,7 +4881,7 @@
   "country": "Georgia",
   "age": 30,
   "dob": "1996-10-02",
-  "height": 72,
+  "height": 71,
   "img": "img/fighters/levan-chokheli.png"
  },
  {
@@ -5053,6 +4997,19 @@
   "img": "img/fighters/louis-jourdain.png"
  },
  {
+  "id": "louis-lee-scott",
+  "name": "Louis Lee Scott",
+  "nickname": "Lightning",
+  "record": "9-0-0",
+  "gender": "M",
+  "division": "Bantamweight",
+  "weight": 135,
+  "country": "England",
+  "age": 26,
+  "height": 68,
+  "img": "img/fighters/louis-lee-scott.png"
+ },
+ {
   "id": "luana-pinheiro",
   "name": "Luana Pinheiro",
   "nickname": null,
@@ -5061,7 +5018,7 @@
   "division": "Women's Strawweight",
   "weight": 115,
   "country": "Brazil",
-  "age": 32,
+  "age": 33,
   "dob": "1993-11-18",
   "height": 63,
   "img": "img/fighters/luana-pinheiro.png"
@@ -5182,7 +5139,7 @@
   "id": "luis-gurule",
   "name": "Luis Gurule",
   "nickname": "Grim",
-  "record": "11-4-0",
+  "record": "12-4-0",
   "gender": "M",
   "division": "Flyweight",
   "weight": 125,
@@ -5910,7 +5867,7 @@
   "id": "melquizael-costa",
   "name": "Melquizael Costa",
   "nickname": "The Dalmatian",
-  "record": "26-7-0",
+  "record": "27-8-0",
   "gender": "M",
   "division": "Lightweight",
   "weight": 155,
@@ -6139,7 +6096,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "USA",
-  "age": 31,
+  "age": 35,
   "height": 70,
   "img": "img/fighters/mike-perry.png"
  },
@@ -6454,7 +6411,7 @@
   "id": "navajo-stirling",
   "name": "Navajo Stirling",
   "nickname": null,
-  "record": "11-0-0",
+  "record": "12-0-0",
   "gender": "M",
   "division": "Light Heavyweight",
   "weight": 205,
@@ -6566,7 +6523,7 @@
   "id": "nikolas-motta",
   "name": "Nikolas Motta",
   "nickname": "Iron",
-  "record": "15-6-0",
+  "record": "15-7-0",
   "gender": "M",
   "division": "Lightweight",
   "weight": 155,
@@ -6647,20 +6604,6 @@
   "img": "img/fighters/nora-cornolle.png"
  },
  {
-  "id": "norma-dumont",
-  "name": "Norma Dumont",
-  "nickname": "The Immortal",
-  "record": "13-4-0",
-  "gender": "F",
-  "division": "Women's Bantamweight",
-  "weight": 135,
-  "country": "Brazil",
-  "age": 36,
-  "dob": "1990-10-01",
-  "height": 67,
-  "img": "img/fighters/norma-dumont.png"
- },
- {
   "id": "taiyilake-nueraji",
   "name": "Nueraji Taiyilake",
   "nickname": "Super Saiyan",
@@ -6683,7 +6626,7 @@
   "division": "Middleweight",
   "weight": 185,
   "country": "Uzbekistan",
-  "age": 32,
+  "age": 33,
   "dob": "1993-11-19",
   "height": 77,
   "img": "img/fighters/nursulton-ruziboev.png"
@@ -6795,7 +6738,7 @@
   "division": "Light Heavyweight",
   "weight": 205,
   "country": "France",
-  "age": 30,
+  "age": 31,
   "dob": "1995-11-21",
   "height": 76,
   "img": "img/fighters/oumar-sy.png"
@@ -6914,6 +6857,19 @@
   "img": "img/fighters/piera-rodriguez.png"
  },
  {
+  "id": "piero-guaylupo",
+  "name": "Piero Guaylupo",
+  "nickname": "El Lobo",
+  "record": "1-0-0",
+  "gender": "M",
+  "division": "Lightweight",
+  "weight": 155,
+  "country": "Peru",
+  "age": 21,
+  "height": 68,
+  "img": "img/fighters/piero-guaylupo.png"
+ },
+ {
   "id": "polyana-viana",
   "name": "Polyana Viana",
   "nickname": "Dama de Ferro",
@@ -6964,7 +6920,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "USA",
-  "age": 33,
+  "age": 34,
   "dob": "1992-11-22",
   "height": 71,
   "img": "img/fighters/punahele-soriano.png"
@@ -6973,7 +6929,7 @@
   "id": "quentin-pasley",
   "name": "Quentin Pasley",
   "nickname": null,
-  "record": "1-0-0",
+  "record": "4-0-0",
   "gender": "M",
   "division": "Light Heavyweight",
   "weight": 205,
@@ -7102,7 +7058,7 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "USA",
-  "age": 33,
+  "age": 34,
   "dob": "1992-11-17",
   "height": 70,
   "img": "img/fighters/ramiz-brahimaj.png"
@@ -7148,20 +7104,6 @@
   "dob": "1987-05-01",
   "height": 68,
   "img": "img/fighters/raoni-barcelos.png"
- },
- {
-  "id": "raquel-pennington",
-  "name": "Raquel Pennington",
-  "nickname": "Rocky",
-  "record": "16-10-0",
-  "gender": "F",
-  "division": "Women's Bantamweight",
-  "weight": 135,
-  "country": "USA",
-  "age": 38,
-  "dob": "1988-09-05",
-  "height": 67,
-  "img": "img/fighters/raquel-pennington.png"
  },
  {
   "id": "raul-rosas-jr",
@@ -7671,7 +7613,7 @@
   "id": "santiago-luna",
   "name": "Santiago Luna",
   "nickname": "BorderBoy",
-  "record": "8-1-0",
+  "record": "9-1-0",
   "gender": "M",
   "division": "Bantamweight",
   "weight": 135,
@@ -7704,10 +7646,23 @@
   "division": "Welterweight",
   "weight": 170,
   "country": "USA",
-  "age": 33,
+  "age": 34,
   "dob": "1992-11-23",
   "height": 70,
   "img": "img/fighters/sean-brady.png"
+ },
+ {
+  "id": "sean-clancy-jr",
+  "name": "Sean Clancy Jr.",
+  "nickname": "The One",
+  "record": "1-0-0",
+  "gender": "M",
+  "division": "Welterweight",
+  "weight": 170,
+  "country": "Scotland",
+  "age": 23,
+  "height": 73,
+  "img": "img/fighters/sean-clancy-jr.png"
  },
  {
   "id": "sean-king-iii",
@@ -7853,7 +7808,7 @@
   "id": "shamil-gaziev",
   "name": "Shamil Gaziev",
   "nickname": null,
-  "record": "15-3-0",
+  "record": "15-4-0",
   "gender": "M",
   "division": "Heavyweight",
   "weight": 265,
@@ -7949,6 +7904,20 @@
   "img": "img/fighters/shi-ming.png"
  },
  {
+  "id": "shoaib-yousaf",
+  "name": "Shoaib Yousaf",
+  "nickname": "The Assassin",
+  "record": "14-4-0",
+  "gender": "M",
+  "division": "Lightweight",
+  "weight": 155,
+  "country": "England",
+  "age": 31,
+  "dob": "1995-09-07",
+  "height": 71,
+  "img": "img/fighters/shoaib-yousaf.png"
+ },
+ {
   "id": "sodiq-yusuff",
   "name": "Sodiq Yusuff",
   "nickname": "Super",
@@ -7975,20 +7944,6 @@
   "dob": "1999-06-18",
   "height": 66,
   "img": "img/fighters/sofia-montenegro.png"
- },
- {
-  "id": "song-kenan",
-  "name": "Song Kenan",
-  "nickname": "The Assassin",
-  "record": "22-9-0",
-  "gender": "M",
-  "division": "Welterweight",
-  "weight": 170,
-  "country": "China",
-  "age": 36,
-  "dob": "1990-03-10",
-  "height": 72,
-  "img": "img/fighters/song-kenan.png"
  },
  {
   "id": "song-yadong",
@@ -8162,14 +8117,14 @@
   "id": "tahir-abdullayev",
   "name": "Tahir Abdullayev",
   "nickname": "Tank",
-  "record": "20-3-0",
+  "record": "21-3-0",
   "gender": "M",
   "division": "Welterweight",
   "weight": 170,
   "country": "Azerbaijan",
   "age": 29,
   "dob": "1997-02-02",
-  "height": 70,
+  "height": 68,
   "img": "img/fighters/tahir-abdullayev.png"
  },
  {
@@ -8353,20 +8308,6 @@
   "dob": "1986-12-24",
   "height": 67,
   "img": "img/fighters/tim-elliott.png"
- },
- {
-  "id": "tim-means",
-  "name": "Tim Means",
-  "nickname": "The Dirty Bird",
-  "record": "33-17-1",
-  "gender": "M",
-  "division": "Welterweight",
-  "weight": 170,
-  "country": "USA",
-  "age": 42,
-  "dob": "1984-02-20",
-  "height": 74,
-  "img": "img/fighters/tim-means.png"
  },
  {
   "id": "timothy-cuamba",
@@ -8733,20 +8674,6 @@
   "img": "img/fighters/vinicius-oliveira.png"
  },
  {
-  "id": "virna-jandiroba",
-  "name": "Virna Jandiroba",
-  "nickname": "Carcara",
-  "record": "23-5-0",
-  "gender": "F",
-  "division": "Women's Strawweight",
-  "weight": 115,
-  "country": "Brazil",
-  "age": 38,
-  "dob": "1988-05-30",
-  "height": 63,
-  "img": "img/fighters/virna-jandiroba.png"
- },
- {
   "id": "vitor-petrino",
   "name": "Vitor Petrino",
   "nickname": "Icão",
@@ -8817,20 +8744,6 @@
   "img": "img/fighters/wang-cong.png"
  },
  {
-  "id": "wellington-turman",
-  "name": "Wellington Turman",
-  "nickname": "The Prodigy",
-  "record": "18-9-0",
-  "gender": "M",
-  "division": "Welterweight",
-  "weight": 170,
-  "country": "Brazil",
-  "age": 30,
-  "dob": "1996-07-22",
-  "height": 72,
-  "img": "img/fighters/wellington-turman.png"
- },
- {
   "id": "wes-schultz",
   "name": "Wes Schultz",
   "nickname": "Party Time",
@@ -8843,20 +8756,6 @@
   "dob": "1996-08-09",
   "height": 74,
   "img": "img/fighters/wes-schultz.png"
- },
- {
-  "id": "william-gomis",
-  "name": "William Gomis",
-  "nickname": "Jaguar",
-  "record": "15-4-0",
-  "gender": "M",
-  "division": "Featherweight",
-  "weight": 145,
-  "country": "France",
-  "age": 29,
-  "dob": "1997-06-13",
-  "height": 72,
-  "img": "img/fighters/william-gomis.png"
  },
  {
   "id": "xiao-long",
